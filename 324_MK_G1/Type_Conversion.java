@@ -6,44 +6,52 @@ class Type_Conversion {
         // System.out.println(d);
 
         // explicit
-         double dt = 34.56;
-         int st = (int)dt;
-         System.out.println(st);
+        //  double dt = 34.56;
+        //  int st = (int)dt;
+        //  System.out.println(st);
 
-         // implicit 
-         byte b = 20;
-         short s = b;
-         int i = s;
-         long l = i;
-         float f = l;
-         double d = f;
+        //  // implicit 
+        //  byte b = 20;
+        //  short s = b;
+        //  int i = s;
+        //  long l = i;
+        //  float f = l;
+        //  double d = f;
 
-         System.out.println(b);
-         System.out.println(s);
-         System.out.println(i);
-         System.out.println(l);
-         System.out.println(f);
+        //  System.out.println(b);
+        //  System.out.println(s);
+        //  System.out.println(i);
+        //  System.out.println(l);
+        //  System.out.println(f);
+        //  System.out.println(d);
+
+
+        // // explict conversion
+        //  double dr = 34.45;
+        //  float fr = (float)dr;
+        //  long  lr = (long)fr;
+        //  int ir = (int)lr;
+        //  short sr = (short)ir;
+        //  byte br = (byte)sr;
+
+        //  System.out.println(dr);
+        //  System.out.println(fr);
+        //  System.out.println(lr);
+        //  System.out.println(ir);
+        //  System.out.println(sr);
+        //  System.out.println(br);
+
+         // convert wrapper classes
+         Integer a = 20;
+         Double d = (double)a;
          System.out.println(d);
 
-
-        // explict conversion
-         double dr = 34.45;
-         float fr = (float)dr;
-         long  lr = (long)fr;
-         int ir = (int)lr;
-         short sr = (short)ir;
-         byte br = (byte)sr;
-
-         System.out.println(dr);
-         System.out.println(fr);
-         System.out.println(lr);
-         System.out.println(ir);
-         System.out.println(sr);
-         System.out.println(br);
-
-
-
-
+         Double dt = 30.36;
+         // unbox 
+         double ud = dt;
+         int it = (int)ud;
+         Integer at = it;
+         System.out.println(at);
    
 }
 }
