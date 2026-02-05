@@ -23,8 +23,8 @@ class Conditinal{
 
         Scanner sc = new Scanner(System.in);
         String device_name = sc.next();
-        String status = sc.nextLine();
         sc.nextLine();
+        String status = sc.nextLine();
         int model_numb = sc.nextInt();
         System.out.println("Device Name: " + device_name);
         System.out.println("Status: " + status);

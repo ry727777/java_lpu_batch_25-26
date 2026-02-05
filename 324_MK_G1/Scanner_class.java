@@ -27,6 +27,8 @@ class Scanner_class{
         sc.nextLine(); // catch the '\n'
         String b = sc.nextLine();
         System.out.print(a + b);
+
+        
          
         
     }
