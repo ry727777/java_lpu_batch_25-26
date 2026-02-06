@@ -15,10 +15,12 @@ public class Menu_Calcu {
             System.out.print("Choice : ");
             choice = sc.nextInt();
             System.out.print("Enter 2 Number ");
-            int a,b;
-            a = sc.nextInt();
-            b = sc.nextInt();
-            Boolean flag = false;
+            int a=0,b=0;
+            if(choice != 5){
+                a = sc.nextInt();
+                b = sc.nextInt();
+            }
+            
             switch (choice) {
                 case 1:
                     System.out.println("Addition: " + (a + b));
@@ -32,14 +34,10 @@ public class Menu_Calcu {
                 case 4:
                     System.out.println("Division: " + (a/b));
                     break;
-                case 5:
-                    flag = true;
-                    break;
                 default:
                     System.out.println("Invalid choice");
                     break;
             }
-         if(flag) break;
             
         }while(choice != 5);
     }
