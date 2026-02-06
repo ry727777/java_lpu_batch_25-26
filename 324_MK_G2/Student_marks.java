@@ -25,7 +25,7 @@ public class Student_marks {
             for(int row = 0; row < student_marks.length; row++){
                 total_marks += student_marks[row][col];
             }
-            double perc = (double)((total_marks/500)*100);
+            double perc = (double)((total_marks*100.0)/500.0);
             System.out.println("Percentage of student " + (col + 1) + " "+ perc);
         }
 
