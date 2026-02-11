@@ -27,5 +27,18 @@ class Student_Per{
             double per = (sum * 100.0)/400.0;
             System.out.println("Student "+(row+1)+": " + per+"%");
         }
+
+        // using for each loop
+
+        // for(int[] arr : student_marks){
+        //     double sum = 0.0;
+        //     for(int ele : arr){
+        //         sum+=ele;
+        //     }
+        //     double per = (sum * 100.0)/400.0;
+        //     System.out.println("Student: " + per+"%");
+        // }
+
     }
+    
 }
