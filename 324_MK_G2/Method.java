@@ -1,4 +1,9 @@
 class Methods2{
+
+    Methods2(){
+        
+    }
+
     public int sum(int a, int b){
         return a + b;
     }
@@ -17,6 +22,8 @@ class Methods2{
         arr[0] = 100;
         arr[1] = 102;
     }
+
+
 }
 
 
