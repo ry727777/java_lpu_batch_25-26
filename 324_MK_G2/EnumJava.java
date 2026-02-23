@@ -27,6 +27,10 @@ enum Difficulty{
 public class EnumJava {
     public static void main(String[] args) {
         Difficulty var = Difficulty.EASY;
+        System.out.println(var.getEnemy());
+        System.out.println(var.getLevel());
+        System.out.println(var.getTime());
+        
         System.out.println(var);
         System.out.println(var.EASY.ordinal());
         // can not create object outside because construct in enum is private
